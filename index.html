@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>todo-list</title>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"
+    ></script>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+
+  <body>
+    <header class="header">To Do List</header>
+
+    <main>
+      <div class="todo-container todo-list1">
+        <div class="dragRange" name="dragRange">
+          <header class="todo-header">ToDo</header>
+          <ul class="todo-list"></ul>
+          <textarea
+            id="text_form"
+            cols="30"
+            rows="10"
+            placeholder="タスクを入力してください"
+          ></textarea>
+        </div>
+      </div>
+
+      <div class="todo-container todo-list2">
+        <div class="dragRange" name="dragRange">
+          <header class="todo-header">Done</header>
+          <ul class="todo-list"></ul>
+        </div>
+      </div>
+    </main>
+
+    <script type="text/javascript" src="todo.js"></script>
+  </body>
+</html>
