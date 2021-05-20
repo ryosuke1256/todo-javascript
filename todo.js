@@ -1,18 +1,3 @@
-// リストを4つつくる
-// checkボタン装飾!!!!
-// scssリファクタリング
-//boxshadowいれる
-//placeholder消えるの直す
-//hover入れる
-//リファクタリング
-//レスポンシブ対応させる
-//2分割させて　todoとdone作る!!
-//reactで書く
-//ハンバーガーメニュー作る
-//ユーザー登録作る
-//ドラッグ＆ドロップ作る！！
-//モジュールでファイル分ける
-
 let i = 0;
 const $textForm = document.querySelector('#text_form');
 
@@ -24,12 +9,7 @@ const init = (ev) => {
     let $inputText = $textForm.value;
     console.log($textForm.value);
     const $span = document.createElement('span');
-    // 中身空ならはじく　作成中
-    // if ($textForm.value === '') {
-    //   console.log('a');
-    //   $tex.innerHTML = 'もう一度入力してください';
-    //   return;
-    // }
+    
     $textForm.value = '';
     $span.innerHTML = $inputText;
 
